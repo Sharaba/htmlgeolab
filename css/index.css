@@ -12,9 +12,9 @@
   display: inline-block;
   vertical-align: middle;
 }
-
 .body {
   background-color: cornflowerblue;
+  height: 100%;
 }
 
 .panel {
