@@ -5,7 +5,6 @@
 .container {
   width: 1170px;
   margin: 0 auto;
-  height: 100%;
 }
 
 .vertical-items {
@@ -115,9 +114,10 @@ button{
 }
 
 .links{
-  margin: 7% 7% auto 7%;
+  margin: 60px 7% auto 7%;
   justify-content: space-between;
   align-items: center;
+  width: 1170px;
 }
 .messenger{
   font-size: 42px;
