@@ -3,7 +3,7 @@
 }
 
 .container {
-	width: 1170px;
+	max-width: 1170px;
 	margin: 0 auto;
 }
 
@@ -121,7 +121,7 @@ button {
 	margin: 60px 7% auto 7%;
 	justify-content: space-between;
 	align-items: center;
-	width: 1170px;
+	max-width: 1170px;
 }
 
 .messenger {
@@ -165,4 +165,28 @@ button {
 .instagram:hover .bg {
 	transition: all .7s ease;
 	background-color: white;
+}
+a{
+	background-color: aquamarine;
+	min-width: 20px;
+	min-height: 20px;
+}
+
+/*  RESPO  */
+
+@media only screen and (max-width: 500px)
+{
+	.body{
+		background-color: coral;
+	}
+	.panel{
+		width: 300px;
+		height: 350px;
+	}
+	.panel h1 {
+		font-size: 24px;
+	}
+	.form {
+		height: 50px;
+	}
 }

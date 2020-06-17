@@ -1,0 +1,244 @@
+.flex {
+	display: flex;
+}
+
+.container {
+	width: 1170px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.vertical-items {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.body {
+	background-color: black;
+	height: 100%;
+}
+.header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+}
+.navbar{
+    background-color: rgb(10, 10, 10);
+    justify-content: center;
+}
+.nav-ul{
+    margin: 25px auto;
+}
+.nav-li{
+    font-family: "ninoMtavruli", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.nav-a{
+	transition: color 0.3s ease;
+    color: grey;
+}
+.nav-li:first-child{
+    margin-left: 0;
+}
+.nav-li:hover .nav-a{
+    transition: color 0,5s linear;
+    color: white;
+}
+.story{
+    margin-top: 125px;
+    margin-bottom: 40px;
+}
+.story .container{
+    justify-content: space-evenly;
+}
+.story .container img{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(26, 24, 24);
+}
+.story .container p{
+    margin-top: 75px;
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto-Light", Arial, Helvetica, sans-serif;
+    width: 250px;
+    text-align: center;
+}
+.story .container .text{
+    flex-direction: column;
+    align-items: center;
+}
+.story .container .text  button{
+    transition: all 0.3s ease;
+	margin-top: 30px;
+	background-color: black;
+	border: dotted 2px rgba(255, 255, 255, 0.3);
+	color: white;
+	padding: 5px 25px;
+	text-decoration: none;
+	font-size: 14px;
+	outline: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 130px;
+    font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+}
+.story .container .text button:hover{
+    font-size: 11px;
+    transition: all 0.3s ease;
+    color: black;
+    background-color: white;
+    border: none;
+    font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
+}
+.offers .container,
+.books .container{
+    background-color: rgb(8, 8, 8);
+    border-radius: 35px;
+
+}
+.offers .container ul{
+    color: white;
+    height: 275px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.books .container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.books .container ul{
+    color: white;
+    height: 275px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.books .container ul li img{
+    height:150px;
+}
+.offers .container ul li .course img{
+    height:150px;
+}
+.offers .container ul li .course{
+    flex-direction: column;
+}
+.offers .container ul li .course button{
+    transition: all 0.3s ease;
+	margin-top: 30px;
+	background-color: black;
+	border: dotted 2px rgba(255, 255, 255, 0.3);
+	color: white;
+	padding: 5px 25px;
+	text-decoration: none;
+	font-size: 14px;
+	outline: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 130px;
+    font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+}
+.offers .container ul li .course button:hover{
+    font-size: 11px;
+    transition: all 0.3s ease;
+    color: black;
+    background-color: white;
+    border: none;
+    font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
+}
+.title{
+    color: white;
+    font-family: "Roboto-Medium", Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-left: 90px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.buy{
+    margin-bottom: 50px;
+}
+.buy .container{
+    justify-content: space-evenly;
+}
+/*
+.buy .container img{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(26, 24, 24);
+} */
+.buy .container .text p{
+    margin-top: 75px;
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto-Light", Arial, Helvetica, sans-serif;
+    width: 700px;
+    text-align: center;
+}
+.buy .container .text{
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy .container .text  button{
+    transition: all 0.3s ease;
+	margin-top: 30px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	padding: 5px 25px;
+	text-decoration: none;
+	font-size: 20px;
+	outline: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+    font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
+}
+.buy .container .text button:hover{
+    font-size: 11px;
+    transition: all 0.3s ease;
+    color: black;
+    background-color: white;
+    border: dotted 2px rgba(255, 255, 255, 0.3);
+    font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+    width: 120px;
+
+}
+.footbar{
+    background-color: rgb(4, 4, 4);
+    justify-content: center;
+}
+.foot-ul{
+    margin: 25px auto;
+}
+.foot-li{
+    font-family: "Roboto-Light", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.foot-a{
+	transition: color 0.3s ease;
+    color: white;
+}
+.foot-li:first-child{
+    margin-left: 0;
+}
+.foot-li:hover .foot-a{
+    transition: color 0,5s linear;
+    color: grey;
+}
+.foot-a:first-child{
+    padding-right: 40px;
+}
+.foot-a:last-child{
+    padding-left: 40px;
+    text-transform: capitalize;
+}
+/* footer */
+
+.active{
+    color: white;
+}
